@@ -1,0 +1,16 @@
+# Colocar as bibliotecas com suas versoes
+
+- flask
+- sqlalchemy
+- flaks-sqlalchemy
+- flask-migrate
+- flask-restful
+- dontenv
+- mysqlclient
+- passlib
+- marshmallow
+- flask-marshmallow
+- marshmallow-sqlalchemy
+- flask-cors
+- flasgger (documentação swagger)
+- JWT
