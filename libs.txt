@@ -1,0 +1,18 @@
+# Colocar as bibliotecas com suas versoes
+
+# pip freeze > requirements.txt
+
+- flask ok
+- sqlalchemy ok
+- flaks-sqlalchemy ok
+- flask-migrate
+- flask-restful ok
+- dontenv ok
+- mysqlclient ok
+- passlib ok
+- marshmallow ok
+- flask-marshmallow ok
+- marshmallow-sqlalchemy ok
+- flask-cors
+- flasgger (documentação swagger)
+- JWT
