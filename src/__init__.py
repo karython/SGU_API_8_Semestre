@@ -19,3 +19,7 @@ api = Api(app)
 
 #TODO: Apontar os modelos (tabelas)
 #      Apontar as Views
+
+from src.models import usuario_model
+
+from src.views import usuario_view
