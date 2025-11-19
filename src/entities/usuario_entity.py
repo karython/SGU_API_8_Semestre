@@ -1,4 +1,3 @@
-from passlib.hash import pbkdf2_sha256 as sha256
 
 class Usuario:
     def __init__(self, nome, email, senha):
@@ -33,9 +32,3 @@ class Usuario:
 
     #REVIEW - verificar se não vai causar algum erro na hora de criar a senha
     # criptografar a senha
-    def gen_senha(self, senha):
-        self.senha = sha256.hash(senha)
-
-    # verificar a senha
-    def vericar_senha(self, senha):
-        return sha256.verify(senha, self.senha)
